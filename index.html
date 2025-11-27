@@ -94,7 +94,7 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.9), 0 0 20px rgba(248, 178, 41, 0.4);
         }
 
-        /* Hósapka - JAVÍTVA */
+        /* Hósapka */
         .glass-card::before {
             content: '';
             position: absolute;
@@ -233,9 +233,12 @@
         <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
     </ul>
 
-    <header class="w-full max-w-6xl text-center py-12 relative z-10">
-        <h1 class="font-christmas text-5xl md:text-7xl text-[#f8b229] drop-shadow-[0_0_15px_rgba(255,0,0,0.8)] transform -rotate-2">
-            <i class="fas fa-holly-berry text-[#d42426] mr-3"></i>Boldog Karácsonyt!<i class="fas fa-holly-berry text-[#d42426] ml-3"></i>
+    <!-- HEADER MÓDOSÍTVA: 13vw méret + kisebb gap + 9vw ikonok -->
+    <header class="w-full max-w-7xl text-center py-6 relative z-10 overflow-hidden px-0">
+        <h1 class="font-christmas text-[13vw] sm:text-7xl text-[#f8b229] drop-shadow-[0_0_15px_rgba(255,0,0,0.8)] transform -rotate-2 flex items-center justify-center whitespace-nowrap tracking-tighter gap-0 sm:gap-3 w-full">
+            <i class="fas fa-holly-berry text-[#d42426] text-[9vw] sm:text-5xl flex-shrink-0 transform -rotate-12 mr-1"></i>
+            <span class="pt-1">Boldog Karácsonyt!</span>
+            <i class="fas fa-holly-berry text-[#d42426] text-[9vw] sm:text-5xl flex-shrink-0 transform rotate-12 ml-1"></i>
         </h1>
     </header>
 
